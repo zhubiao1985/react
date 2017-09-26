@@ -206,12 +206,6 @@ function isCheckableInput(elem) {
   );
 }
 
-function getTargetInstForClickEvent(topLevelType, targetInst) {
-  if (topLevelType === 'topClick') {
-    return getInstIfValueChanged(targetInst);
-  }
-}
-
 function getTargetInstForInputOrChangeEvent(topLevelType, targetInst) {
   if (topLevelType === 'topInput' || topLevelType === 'topChange') {
     return getInstIfValueChanged(targetInst);
