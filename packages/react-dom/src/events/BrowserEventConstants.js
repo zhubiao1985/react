@@ -21,6 +21,7 @@ var topLevelTypes = {
     getVendorPrefixedEventName('animationiteration') || 'animationiteration',
   topAnimationStart:
     getVendorPrefixedEventName('animationstart') || 'animationstart',
+  topAuxClick: 'auxclick',
   topBlur: 'blur',
   topCancel: 'cancel',
   topCanPlay: 'canplay',
