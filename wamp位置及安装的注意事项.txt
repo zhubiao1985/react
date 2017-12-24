@@ -1,0 +1,6 @@
+c:\wamp
+
+
+
+
+Wampserver2.4-x86.exe可以安装，wampserver2.5.exe极其以上的版本安装报错。本系统是XP系统。
